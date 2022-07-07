@@ -1,0 +1,8 @@
+def mean_word(x):
+    return (dictionary[x])
+dictionary={"Profound":"Deep","Inadevrtently":"By mistake","Earnestly":"Faithfully","Overwhelmed":"Nervous"}
+d1=input("enter any word")
+if d1 in dictionary:
+ print(mean_word(d1)) 
+else:
+    print("The word is not in the dictionary")
